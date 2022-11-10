@@ -295,3 +295,33 @@ body {
 .cabecalhoPrincipal-nav {
 	display: flex;
 }
+
+.rodapePrincipal-patrocinadores .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 70%;
+	margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+	display: flex;
+	width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+	display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+	display: flex;
+	/*flex-direction: column;
+	flex-wrap: wrap;*/
+	flex-flow: column wrap; /*Flex-flow faz o mesmo que a flex-direction e o flex-wrap estava fazendo*/
+	height: 260px;
+}
