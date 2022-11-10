@@ -20,3 +20,24 @@
 <p align="justify">O display: flex veio com o intuito de facilitar nossa vida nesses aspectos de posicionamento. Ele permite os elementos ficarem um do lado do outro, permite espaçar os elementos de forma mais intuitiva e sem ter que fazer cálculos. Além disso ele também permite alinhar os elementos verticalmente de forma fácil.</p>
 
 <p align="justify">O display flex pode ser um pouco mais complicado de usar tendo em vista que existem diversas propriedades que vem junto da especificação flexible box, todavia tudo isso foi feito para justamente melhorar nosso código.</p>
+
+<h2>Propriedades Flex</h2>
+
+<h3>container:</p>
+
+* display: flex
+* flex-direction
+* justify-content
+* flex-wrap
+* flex-flow
+* align-items
+* align-content
+
+<h3>flex item:</p>
+
+* order
+* flex-grow
+* flex-shrink
+* flex-basis
+* flex
+* align-self
