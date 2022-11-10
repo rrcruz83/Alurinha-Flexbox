@@ -325,3 +325,14 @@ body {
 	flex-flow: column wrap; /*Flex-flow faz o mesmo que a flex-direction e o flex-wrap estava fazendo*/
 	height: 260px;
 }
+
+.conteudoPrincipal-cursos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.conteudoPrincipal-cursos-link {
+	width: 23%;
+	margin-bottom: 1%;
+}
